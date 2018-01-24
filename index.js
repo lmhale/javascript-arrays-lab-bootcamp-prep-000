@@ -6,6 +6,6 @@ function destructivelyAppendKitten(name){
 }
 destructivelyAppendKitten('Ralph');
 
-Arrays destructivelyPrependKitten(name) {
+function destructivelyPrependKitten(name) {
   return kittens.unshift(name);
 }
